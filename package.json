@@ -1,0 +1,32 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Use nodejs to build a url-shortener",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "start:dev": "nodemon",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YiTingLee/url-shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YiTingLee/url-shortener/issues"
+  },
+  "homepage": "https://github.com/YiTingLee/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ts-node": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.10",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5"
+  }
+}
